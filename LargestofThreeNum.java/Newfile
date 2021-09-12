@@ -1,0 +1,12 @@
+
+public class LargestofThreeNum {
+	public static void main(String[] args) {
+		int FirstNumber=450;
+		int SecondNumber=820;
+		int ThirdNumber=36;
+		int max=(FirstNumber>SecondNumber)?(FirstNumber>ThirdNumber?FirstNumber:ThirdNumber):(SecondNumber>ThirdNumber?SecondNumber:ThirdNumber);
+		System.out.println("The Maximum Number is "+max);
+	}
+
+}
+
