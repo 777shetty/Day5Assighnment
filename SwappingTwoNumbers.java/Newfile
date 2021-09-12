@@ -1,0 +1,14 @@
+
+public class SwappingTwoNumbers {
+	public static void main(String[]args) {
+		int F1=5,S1=15;
+		System.out.println("Before Swaping The FirstNumber="+F1+" and The SecondNumber="+S1);
+		F1=F1+S1;
+		S1=F1-S1;
+		F1=F1-S1;
+		System.out.println("After  Swaping The FirstNumber="+F1+" and The SecondNumber="+S1);	
+		
+	}
+
+}
+
